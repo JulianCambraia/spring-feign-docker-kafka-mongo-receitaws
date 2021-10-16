@@ -1,0 +1,14 @@
+api:
+  cnpj:
+    username: admin
+    password: admin@123
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+topic:
+  receitaws-cliente: topic_receitaws_cliente
