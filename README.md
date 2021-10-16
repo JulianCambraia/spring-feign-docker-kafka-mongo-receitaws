@@ -15,4 +15,4 @@ Para que consigamos visualizar se as mensagens (Payloads) estão sendo enviadas 
 A próxima etapa será a construção de uma outra API Cliente que terá como objetivo consumir da fila do Kafka estas mensagens postadas e,em seguida persisti-las em um banco de dados. Que neste caso optei pelo banco noSQL MongoDB.
 
 
-![alt text](https://github.com/JulianCambraia/spring-feign-docker-kafka-mongo-receitaws/blob/main/images/arquitetura-poc.png?raw=true)
+![alt text](https://github.com/JulianCambraia/spring-feign-docker-kafka-mongo-receitaws/blob/main/images/diagrama-componetes.drawio.png?raw=true)
